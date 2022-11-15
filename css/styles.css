@@ -25,6 +25,11 @@ p {
   text-align: center;
 }
 
+.center_2 {
+  text-align: center;
+  color: white;
+}
+
 .customNav {
   position: fixed;
   width: 100%;
@@ -83,7 +88,7 @@ p {
   background-color: #725d6e;
   background-size: cover;
   background-repeat: no-repeat;
-  height: calc(40vh - 25px);
+  height: calc(50vh - 25px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,9 +108,29 @@ p {
   color: black;
 }
 
+.Foodjumbotron {
+  background-image: url(../Images/FoodCultureHeroImage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wireframejumbotron {
+  background-color: #725d6e;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Jumbotron copy */
 .jumboCopy {
-  width: 70%;
+  width: 100%;
   min-width: 600px;
   max-width: 1000px;
   color: white;
